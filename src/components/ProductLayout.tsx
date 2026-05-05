@@ -32,7 +32,7 @@ export const ProductLayout: React.FC<ProductLayoutProps> = ({
   return (
     <div className="bg-[#FAFAFA] text-[#1A1A1A] font-sans">
       {/* Product Hero */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black pt-24">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black pt-40">
         <motion.div 
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}

@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className="bg-[#FAFAFA] text-[#1A1A1A] font-sans">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black pt-24">
+      <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-black pt-40">
         {/* Background Layer */}
         <motion.div 
           initial={{ scale: 1.1, opacity: 0 }}
@@ -42,17 +42,17 @@ export const Home = () => {
               </span>
             </motion.div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1] tracking-tighter text-white mb-6 uppercase text-center">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tighter text-white mb-6 uppercase text-center">
               Energía <br />
               <span className="text-orange-600">Total</span> <br />
               Directa
             </h1>
 
-            <p className="text-base md:text-lg text-white/70 mb-10 font-medium max-w-xl mx-auto leading-relaxed lowercase tracking-tight italic">
+            <p className="text-xs md:text-sm text-white/70 mb-10 font-medium max-w-lg mx-auto leading-relaxed lowercase tracking-tight italic">
               potenciamos su actividad, aseguramos el flujo ininterrumpido y maximizamos su rendimiento con el suministro de gasóleo más fiable de madrid.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-lg mx-auto">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-lg mx-auto pb-20">
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
