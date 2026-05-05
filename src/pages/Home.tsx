@@ -42,17 +42,17 @@ export const Home = () => {
               </span>
             </motion.div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1] tracking-tighter text-white mb-10 uppercase text-center">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1] tracking-tighter text-white mb-6 uppercase text-center">
               Energía <br />
               <span className="text-orange-600">Total</span> <br />
               Directa
             </h1>
 
-            <p className="text-lg md:text-xl text-white/70 mb-14 font-medium max-w-xl mx-auto leading-relaxed lowercase tracking-tight italic">
+            <p className="text-base md:text-lg text-white/70 mb-10 font-medium max-w-xl mx-auto leading-relaxed lowercase tracking-tight italic">
               potenciamos su actividad, aseguramos el flujo ininterrumpido y maximizamos su rendimiento con el suministro de gasóleo más fiable de madrid.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-6 justify-center w-full max-w-lg">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-lg mx-auto">
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -164,7 +164,7 @@ export const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {[
               { title: 'Gasóleo A', desc: 'Máximo rendimiento para automoción y flotas.', link: '/gasoleo-a', img: 'https://images.unsplash.com/photo-1565891741441-64926e441838?auto=format&fit=crop&q=80&w=1200' },
-              { title: 'Gasóleo B', desc: 'Potencia específica para agricultura e industria.', link: '/gasoleo-b', img: 'https://images.unsplash.com/photo-1574015974293-817f0efebb1b?auto=format&fit=crop&q=80&w=1200' },
+              { title: 'Gasóleo B', desc: 'Potencia específica para agricultura e industria.', link: '/gasoleo-b', img: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200' },
               { title: 'Gasóleo C', desc: 'Calor eficiente para el hogar y comunidades.', link: '/gasoleo-c', img: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&q=80&w=1200' },
               { title: 'Adblue', desc: 'Tecnología limpia para flotas diésel modernas.', link: '/adblue', img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200' },
             ].map((product, idx) => (
