@@ -164,7 +164,7 @@ export const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {[
               { title: 'Gasóleo A', desc: 'Máximo rendimiento para automoción y flotas.', link: '/gasoleo-a', img: 'https://images.unsplash.com/photo-1565891741441-64926e441838?auto=format&fit=crop&q=80&w=1200' },
-              { title: 'Gasóleo B', desc: 'Potencia específica para agricultura e industria.', link: '/gasoleo-b', img: 'https://images.unsplash.com/photo-1500382017468-9049fee74a62?auto=format&fit=crop&q=80&w=1200' },
+              { title: 'Gasóleo B', desc: 'Potencia específica para agricultura e industria.', link: '/gasoleo-b', img: 'https://images.unsplash.com/photo-1574015974293-817f0efebb1b?auto=format&fit=crop&q=80&w=1200' },
               { title: 'Gasóleo C', desc: 'Calor eficiente para el hogar y comunidades.', link: '/gasoleo-c', img: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&q=80&w=1200' },
               { title: 'Adblue', desc: 'Tecnología limpia para flotas diésel modernas.', link: '/adblue', img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200' },
             ].map((product, idx) => (

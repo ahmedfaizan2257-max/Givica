@@ -57,7 +57,7 @@ export default function App() {
                 title="Gasóleo B para maquinaria y empresas"
                 subtitle="¿Qué es el Gasóleo B?"
                 description="El gasóleo B es un combustible destinado principalmente a usos profesionales, agrícolas e industriales. Es obligatorio para determinados tipos de maquinaria y vehículos fuera de la automoción convencional."
-                imageUrl="https://images.unsplash.com/photo-1500382017468-9049fee74a62?auto=format&fit=crop&q=80&w=1200"
+                imageUrl="https://images.unsplash.com/photo-1574015974293-817f0efebb1b?auto=format&fit=crop&q=80&w=1200"
                 secondaryImage="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200"
                 forWhom={[
                   { icon: <Tractor />, text: "Maquinaria agrícola" },
